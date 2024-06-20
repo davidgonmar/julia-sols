@@ -14,7 +14,6 @@ Compute the binomial distribution with parameters `n` and `p`.
 # Returns
 - `result::T`: Number of successes.
 """
-
 function binomial(n::Int, p::Float64, T::Type = Int)
 	result = T(0)
 	for _ ∈ 1:n

@@ -12,7 +12,6 @@ Create a Strang matrix of size `N` with elements of type `T`.
 
 # Returns
 - `A::Matrix{T}`: Strang matrix of size `N` with elements of type `T`.
-
 """
 function strang_matrix(N::Int, T::Type = Float64)
 	A = zeros(T, N, N)
